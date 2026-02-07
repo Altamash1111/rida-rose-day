@@ -70,7 +70,7 @@ rose.addEventListener("click", () => {
   if (isHeart) return; // end state, no more scaling
 
   taps++;
-  counterText.textContent = `You’ve tapped my heart ${taps} time${taps > 1 ? "s" : ""}`;
+  counterText.textContent = `Rida Ji… Mera dil chooh diyaa aapne hehehe ${taps} time${taps > 1 ? "s" : ""}`;
   counterText.style.opacity = 1;
 
   // First click setup
@@ -102,12 +102,14 @@ rose.addEventListener("click", () => {
   // 🌹 → ❤️ FINAL TRANSFORMATION
   isHeart = true;
 
-  rose.textContent = "❤️";
+message.innerHTML = "Rida Ji… this heart beats only for you ❤️";
+
+rose.textContent = "❤️";
   rose.classList.add("heart");
 
   rose.style.transform = "scale(2.2)";
   rose.style.filter = "drop-shadow(0 0 45px rgba(255, 0, 80, 1))";
 
-  warningText.textContent = "Okay okay… rose is yours now ❤️";
+  warningText.textContent = "Bas babuuu… dil ab officially aapka hai ❤️";
   warningText.style.opacity = 1;
 });
