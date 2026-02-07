@@ -70,7 +70,7 @@ rose.addEventListener("click", () => {
   if (isHeart) return; // end state, no more scaling
 
   taps++;
-  counterText.textContent = `Rida Ji… Mera dil chooh diyaa aapne hehehe ${taps} time${taps > 1 ? "s" : ""}`;
+  counterText.textContent = `hehehe...Jaan you tapped my heart ${taps} time${taps > 1 ? "s" : ""}`;
   counterText.style.opacity = 1;
 
   // First click setup
